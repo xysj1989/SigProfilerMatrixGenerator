@@ -309,7 +309,7 @@ def SigProfilerMatrixGeneratorFunc (project, genome, vcfFiles, exome=False, bed_
 	log_out.write("\n-------Python and Package Versions------- \n")
 	log_out.write("Python Version: "+str(platform.sys.version_info.major)+"."+str(platform.sys.version_info.minor)+"."+str(platform.sys.version_info.micro)+"\n")
 	log_out.write("SigProfilerMatrixGenerator Version: "+sig.__version__+"\n")
-	log_out.write("SigProfilerPlotting version: "+sigPlt.__version__+"\n")
+	#log_out.write("SigProfilerPlotting version: "+sigPlt.__version__+"\n")
 	log_out.write("matplotlib version: "+plt.__version__+"\n")
 	log_out.write("statsmodels version: "+statsmodels.__version__+"\n")
 	log_out.write("scipy version: "+scipy.__version__+"\n")
